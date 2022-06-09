@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navcolor{
+    background-color: rgb(252, 242, 184);
+    box-shadow: 5px 5px 15px rgb(136, 135, 135);
+}
+.container h1,h2{
+    font-family: 'Viga', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    margin-left: 50px;
+    width: 1200px;
+    background-color: #A6E9D5  ;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgb(136, 135, 135);
+}
+.carousel-item{
+    padding: 50px 50px;
+}
+
+.price{
+    color: #B32600;
+}
+.buy-now-btn{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-image: linear-gradient(to bottom,#faafcd 0% ,#f1649a 100%);
+    padding: 10px 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgb(122, 120, 120);
+}
+.card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.box{
+    display: block;
+    margin: auto;
+    height: 9px;
+    width: 200PX;
+    border-radius: 5px;
+    
+    background-image: linear-gradient(to right, #FFD019 , #FF9C35);
+}
+.box1{
+    display: block;
+    margin: auto;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.box2{
+    display: block;
+    margin: auto;
+}
+footer{
+ text-align: center;
+}
