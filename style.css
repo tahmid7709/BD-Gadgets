@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .navcolor{
-    background-color: rgb(252, 242, 184);
+    background-color: rgb(255, 249, 214);
     box-shadow: 5px 5px 15px rgb(136, 135, 135);
 }
 .container h1,h2{
@@ -40,6 +40,10 @@ body{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
 }
+.cattitle{
+    display: block;
+    margin: auto;
+}
 .box{
     display: block;
     margin: auto;
@@ -73,6 +77,11 @@ a{
     display: flex;
     justify-content: end;
 }
+.card-body{
+    display: block;
+    margin: auto; 
+}
+
 @media screen and (max-width: 720px) {
     .col-md-1{
         display: flex;
@@ -83,3 +92,26 @@ a{
     }
     
     }
+    @media screen and (max-width: 720px) {
+    .catagories{
+        display: flex;
+        
+        justify-content: center;
+
+
+    }
+}
+@media screen and (max-width: 720px) {
+
+    .lstimg{
+        width: 412px;
+        height: 412px;   
+    }
+}
+@media screen and (max-width: 720px) {
+    .box1,.box2{
+        display: flex;
+        
+        justify-content: center;
+    }
+}
