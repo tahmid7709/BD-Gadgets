@@ -10,6 +10,7 @@ body{
 }
 .container{
     margin-bottom: 100px;
+    
 }
 .orange-bg{
     margin: auto;
@@ -61,3 +62,24 @@ body{
 footer{
  text-align: center;
 }
+a{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: #FF9D00;
+     
+}
+.bg2{
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width: 720px) {
+    .col-md-1{
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg);
+        width: 900px;
+        height: 200px;
+    }
+    
+    }
